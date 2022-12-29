@@ -1,0 +1,47 @@
+<html>
+    <style>
+         body {
+            font-family: georgia, serif;
+            background-color: #222222;
+            text-align: center;}
+        p    {
+            color: #EDCFA9;
+            text-align: center;}
+        h2   {
+            color: #EDCFA9;
+        }
+        #link,a {
+            color: #434242;
+            text-align: center;}
+        #time {
+            color: #D57149;
+            text-align: center;}
+        #titleauthor {
+            color: #D57149}
+        #paragraph {
+            color: #EDCFA9; font-size:16px;
+            white-space: pre-line;
+            width: 50%;
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
+
+    <head>
+        <title> Gutenberg Clock</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="10">
+    </head>
+    <body>
+        <h2> Gutenberg Clock</h2>
+        <h1 id ="time"> {{time}}</h1>
+        <p id = "paragraph">{{paragraph}}</p>
+        <div id = "titleauthor">
+            <span id ="title"> {{title}} </span> by <span id = "author">{{author}}</span>
+        </div>
+        <div id = "link">
+            <a href="{{link}}"> {{link}}</a>
+        </div>
+    </body>
+
+</html>
